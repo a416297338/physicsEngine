@@ -1,5 +1,6 @@
 # 这是一个简单的 physicsEngine 
 
+
 功能如下:
 
 ![1](https://github.com/user-attachments/assets/805634c1-e5cc-4211-a279-f2f6a9bb2e5e)
@@ -9,3 +10,10 @@
 算法部分写的还行,整体物理框架结构写完后感觉还有欠缺。
 详细介绍文章链接：
 https://zhuanlan.zhihu.com/p/25402896393
+运行方案如下：
+1. Get a C++20 compiler
+2. Build with CMake :
+
+```bash
+cmake -S . -B .\build\
+cmake --build .\build\
